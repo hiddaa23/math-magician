@@ -14,3 +14,7 @@
 
   if __name__ == "__main__":
       main()
+
+    def add(a,b):
+	"""Add a with b and return the result"""
+	return a+b
