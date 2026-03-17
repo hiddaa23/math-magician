@@ -8,9 +8,12 @@
   def main():
       import sys
 
-      op = sys.argv[1]
+      operator = sys.argv[1]
       a = float(sys.argv[2])
       b = float(sys.argv[3])    
+
+  def multiply(a,b):
+    return a*b    
 
 
   if __name__ == "__main__":
