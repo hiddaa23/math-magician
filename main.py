@@ -1,5 +1,6 @@
 # Math Magician Main File
   # usage: math operator operand1 operand2
+  
   def main():
       print("Welcome to Math Magician!")
 
@@ -14,3 +15,7 @@
 
   if __name__ == "__main__":
       main()
+
+def subtract(a, b):
+      """Subtract b from a and return the result."""
+      return a - b
